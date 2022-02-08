@@ -1,0 +1,21 @@
+/*
+blanc : #dbc2ad
+
+
+*/
+.heightTest {
+  height: 200vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.paralaxContainer {
+  height: 400px;
+  width: 100%;
+  background-image: url(../img/bgParalax.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -20,5 +20,9 @@
     <?php include("assets/includes/icon.php") ?>
     <?php include("assets/includes/footer.php") ?>
 -->
+<!--
+Includes scripts
+ -->
+ <script src="assets/js/paralax.js"></script>
 </body>
 </html>

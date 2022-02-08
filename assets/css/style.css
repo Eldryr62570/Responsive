@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* arceus */
+
+.pokemon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.bulbizarre {
+    display: none;
+    width: 100%;
+}
+
+.carapuce {
+    width: 100%;
+}
+
+
+.amphinobi {
+    display: flex;
+    width: 50%;
+}
+
+.salameche {
+    display: flex;
+    width: 100%;
+}
+
+.pharamp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.lainergie {
+    margin: 20px;
+    font-size: 400%;
+}
+
+.wattouat {
+    margin: 20px;
+    font-size: 125%;
+}
+
+@media screen and (max-width: 850px) {
+    .pokemon {
+        flex-direction: column;
+    }
+    .amphinobi {
+        display: none;
+    }
+    .pharamp {
+        width: 100%;
+    }
+    .bulbizarre {
+        display: flex;
+    }
+    .lainergie {
+        margin: 10px;
+        font-size: 300%;
+    }
+    
+    .wattouat {
+        margin: 10px;
+        font-size: 100%;
+    }
+}
+
+/* icon */
+
+.anime {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+.dragonball {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.onepiece {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.bleach {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.naruto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.mha {
+    color: white;
+    font-size: 250%;
+}
+
+.haikyuu {
+    color: white;
+}
+
+.onepunch {
+    text-decoration: none;
+}

@@ -14,8 +14,9 @@
     <!--
     <?php include("assets/includes/navbar.php") ?>  
     <?php include("assets/includes/slider.php") ?>
-    <?php include("assets/includes/texte.php") ?>
+    
 -->
+    <?php include("assets/includes/texte.php") ?>   
     <?php include("assets/includes/paralax.php") ?> 
 <!--
     

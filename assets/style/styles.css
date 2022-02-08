@@ -1,64 +1,52 @@
-*{
-    font-family: 'Oswald', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
 }
 
-.slide {
-    margin: 0;
-    padding: 0;
-    margin-left: -5%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0.7;
-  }
-  
-  .slide-text h1 {
-      font-size: 5em;
-      position: absolute;
-      top: 30%;
-      left: 30%;
-      color: #ffffff ;
+.titre-slide {
+  position: absolute;
+  font-size: 3em;
+  top: 35%;
+  left: 30%;
+}
 
-  }
+.slider {
+  height: 80vh;
+  position: relative;
+}
 
+.slider img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+}
 
-    
-  .slide1 {
-    background-image: url("../img/guitareslide1.jpg");
-  }
-  .slide2 {
-    background-image: url("../img/guitareslide2.jpg");
-  }
-  .slide3 {
-    background-image: url("../img/guitareslide3.jpg");
-  }
-  .slide4 {
-      background-image: url("../img/guitareslide4.jpg");
+.slider img.active {
+  opacity: 1;
+}
 
+.suivant, .precedent {
+  color: #fff;
+  font-size: 6rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
 
-  }
+.suivant {
+  right: 1rem;
+}
 
+.precedent {
+  left: 1rem;
+}
 
-  .boutonslide {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    margin-top: -35px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-  }
-  #bouton-gauche {
-    border-width: 20px 30px 20px 0;
-    border-color: transparent #fff transparent transparent;
-    left: 0;
-    margin-left: 5%;
-  }
-    
-  #bouton-droite {
-    border-width: 20px 0 20px 30px;
-    border-color: transparent transparent transparent #fff;
-    right: 0;
-    right: 5%;
-  }
+@media 

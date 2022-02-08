@@ -1,49 +1,41 @@
-let sliderImages = document.querySelectorAll(".slide"),
-  arrowLeft = document.querySelector("#bouton-gauche"),
-  arrowRight = document.querySelector("#bouton-droite"),
-  current = 0;
-  
-// Nettoyage
-function reset() {
-  for (let i = 0; i < sliderImages.length; i++) {
-    sliderImages[i].style.display = "none";
-  }
+let img__slider = document.getElementsByClassName('img__slider');
+
+let etape = 0;
+
+let nbr__img = img__slider.length;
+
+let precedent = document.querySelector('.precedent');
+let suivant = document.querySelector('.suivant');
+
+function enleverActiveImages() {
+    for(let i = 0 ; i < nbr__img ; i++) {
+        img__slider[i].classList.remove('active');
+    }
 }
-  
-// Initial slide
-function startSlide() {
-  reset();
-  sliderImages[0].style.display = "block";
-}
-  
-// Show previous
-function slideLeft() {
-  reset();
-  sliderImages[current - 1].style.display = "block";
-  current--;
-}
-  
-// Show suivant
-function slideRight() {
-  reset();
-  sliderImages[current + 1].style.display = "block";
-  current++;
-}
-  
-// click gauche 
-arrowLeft.addEventListener("click", function () {
-  if (current === 0) {
-    current = sliderImages.length;
-  }
-  slideLeft();
-});
-  
-// click droite
-arrowRight.addEventListener("click", function () {
-  if (current === sliderImages.length - 1) {
-    current = -1;
-  }
-  slideRight();
-});
-  
-startSlide();
+
+suivant.addEventListener('click', function() {
+    etape++;
+    if(etape >= nbr__img) {
+        etape = 0;
+    }
+    enleverActiveImages();
+    img__slider[etape].classList.add('active');
+})
+
+precedent.addEventListener('click', function() {
+    etape--;
+    if(etape < 0) {
+        etape = nbr__img - 1;
+    }
+    enleverActiveImages();
+    img__slider[etape].classList.add('active');
+})
+
+setInterval(function() {
+    etape++;
+    if(etape >= nbr__img) {
+        etape = 0;
+    }
+    enleverActiveImages();
+    img__slider[etape].classList.add('active');
+}, 5000)

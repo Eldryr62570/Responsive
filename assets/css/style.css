@@ -328,7 +328,7 @@ h1 {
   margin: 10px;
 }
 /*Mode Nuit*/
-.toggle {
+.toggleNight {
   position: absolute;
   right: 1em;
   top: 2em;

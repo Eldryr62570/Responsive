@@ -1,7 +1,7 @@
 <section class="paralaxContainer" id ="paralax">
 
 </section>
-<div class="toggle">
+<div class="toggleNight">
     <input type="checkbox" name="checkbox" class="checkbox" id="dark-mode"/>
     <label for="dark-mode" class="label">
         <i class="fas fa-moon"></i>

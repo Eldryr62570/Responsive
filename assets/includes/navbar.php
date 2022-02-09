@@ -19,7 +19,14 @@
                 </li>
                 
             </ul>
-            
+            <div class="toggleNight">
+                <input type="checkbox" class="checkbox" id="dark-mode"/>
+                <label for="dark-mode" class="label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
             <div class="burger">
                 <div class="line1"></div>
                 <div class="line2"></div>

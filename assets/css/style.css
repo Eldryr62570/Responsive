@@ -330,8 +330,18 @@ h1 {
   margin: 10px;
 }
 /*Mode Nuit*/
+/*Night1 :#232A34
+  Night2 :#
+*/
+.night1 {
+  color: white;
+  background-color: #232a34;
+}
 .toggleNight {
   z-index: 10;
+  position: absolute;
+  top: 10px;
+  left: 15px;
 }
 .checkbox {
   display: none;
@@ -350,6 +360,12 @@ h1 {
   transform: scale(1.2);
   box-shadow: 1px 2px 2px;
 }
+@media screen and (max-width: 1024px) {
+  .label {
+    transform: scale(1);
+  }
+}
+
 .label .ball {
   background: #eee;
   border-radius: 50%;

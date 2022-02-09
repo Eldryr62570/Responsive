@@ -11,31 +11,6 @@ h1 {
 .desactiveimg {
   display: none;
 }
-@media (max-width: 850px) {
-  .slider {
-    display: none;
-  }
-
-  .desactiveimg {
-    display: flex;
-    width: 100%;
-    max-height: 100%;
-    padding: 0px 0px;
-    margin: 0;
-
-    object-fit: cover;
-    position: relative;
-  }
-
-  .titre-slide {
-    font-size: 1.5em;
-    left: 30%;
-    top: 40%;
-  }
-  .sizeImg {
-    width: 100%;
-  }
-}
 
 .titre-slide {
   position: absolute;
@@ -83,12 +58,7 @@ h1 {
 .precedent {
   left: 1rem;
 }
-
-/* responsive slide */
-
-/* tablette */
-
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .slider {
     display: none;
   }
@@ -105,19 +75,22 @@ h1 {
   }
 
   .titre-slide {
-    font-size: 1.5em;
-    left: 30%;
+    font-size: 2em;
+    left: 25%;
     top: 40%;
+  }
+  .sizeImg {
+    width: 100%;
   }
 }
 
 /* mobile */
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   .titre-slide {
     font-size: 1.3em;
-    left: 100%;
-    top: 30%;
+    left: 20%;
+    top: 40%;
     text-align: center;
   }
 }
@@ -133,7 +106,7 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .paralaxContainer {
     display: none;
   }
@@ -160,7 +133,7 @@ h1 {
   text-align: center;
   font-size: 1.3em;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .paragraphTexte p {
     font-size: 1em;
   }
@@ -173,7 +146,7 @@ h1 {
   justify-self: center;
   text-align: center;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .paragraphTitle {
     font-size: 1.7em;
   }

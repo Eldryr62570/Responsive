@@ -16,5 +16,4 @@
             <a href="#">En savoir plus ...</a>
         </div>
     </div>
-    
 </section>

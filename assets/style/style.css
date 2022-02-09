@@ -85,3 +85,41 @@ body {
   color: white;
   margin: 10px;
 }
+/*Mode Nuit*/
+.toggle {
+  position: absolute;
+  right: 1em;
+  top: 2em;
+}
+.checkbox {
+  display: none;
+}
+.label {
+  height: 26px;
+  width: 50px;
+  background-color: rgb(182, 182, 182);
+  padding: 5px 8px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  transform: scale(1.2);
+  box-shadow: 1px 2px 2px;
+}
+.label .ball {
+  background: #eee;
+  border-radius: 50%;
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  transform: translateX(0px);
+  transition: transform 0.4s cubic-bezier(0.76, 0.05, 0.22, 0.89);
+}
+.checkbox:checked + .label .ball {
+  transform: translateX(25px);
+}
+.fa-moon {
+  color: #333;
+}

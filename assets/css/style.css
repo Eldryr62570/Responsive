@@ -23,6 +23,7 @@ nav {
   text-transform: uppercase;
   font-size: 20px;
   grid-column-start: 2;
+  margin-top: 10px;
 }
 .nav-links {
   grid-column-start: 4;

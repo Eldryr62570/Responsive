@@ -2,7 +2,6 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Oswald", sans-serif;
-  transition: 0.5s linear;
 }
 
 header {
@@ -141,7 +140,6 @@ nav {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-section,
 footer {
   transition: 0.5s linear;
   background: rgb(223, 166, 119);

@@ -38,6 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 50%;
+    background-color: rgb(254, 254, 254);
 }
 
 .lainergie {
@@ -48,6 +49,22 @@ body {
 .wattouat {
     margin: 20px;
     font-size: 125%;
+}
+
+.dracaufeu {
+    margin: 5px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #c9956b;
+}
+
+
+
+.dracaufeu a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
 }
 
 @media screen and (max-width: 850px) {
@@ -79,6 +96,7 @@ body {
 .anime {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -90,42 +108,38 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20%;
-}
-
-.onepiece {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-}
-
-.bleach {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-}
-
-.naruto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
+    width: 23.5%;
 }
 
 .mha {
-    color: white;
+    color: rgb(254, 254, 254);
     font-size: 250%;
 }
 
 .haikyuu {
-    color: white;
+    color: rgb(254, 254, 254);
+    margin: 5px;
 }
 
 .onepunch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
+}
+
+@media screen and (max-width: 850px) {
+    .dragonball {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .anime {
+        flex-direction: column;
+    }
+    .dragonball {
+        width: 90%;
+    }
 }

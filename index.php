@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -22,9 +23,13 @@
     <?php include("assets/includes/icon.php") ?>
     <?php include("assets/includes/footer.php") ?>
 
+
+ <script src="assets/js/nav.js"></script>
+ <script src="assets/js/backtotop.js"></script>
  <script src="assets/js/slide.js"></script>
  <script src="assets/js/paralax.js"></script>
  <script src="assets/js/nightMode.js"></script>
 </body>
 </html>
+
 

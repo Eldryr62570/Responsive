@@ -48,7 +48,7 @@ body {
 
 .wattouat {
     margin: 20px;
-    font-size: 125%;
+    font-size: 1.3em;
 }
 
 .dracaufeu {
@@ -67,7 +67,11 @@ body {
     margin: 10px;
 }
 
-@media screen and (max-width: 850px) {
+.dracaufeu:hover{
+    background-color: #66482f;
+}
+
+@media screen and (max-width: 1024px) {
     .pokemon {
         flex-direction: column;
     }
@@ -87,7 +91,7 @@ body {
     
     .wattouat {
         margin: 10px;
-        font-size: 100%;
+        font-size: 1em;
     }
 }
 
@@ -129,13 +133,13 @@ body {
     text-decoration: none;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1024px) {
     .dragonball {
         width: 46%;
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
     .anime {
         flex-direction: column;
     }

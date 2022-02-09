@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* arceus */
+
+.pokemon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.bulbizarre {
+    display: none;
+    width: 100%;
+}
+
+.carapuce {
+    width: 100%;
+}
+
+
+.amphinobi {
+    display: flex;
+    width: 50%;
+}
+
+.salameche {
+    display: flex;
+    width: 100%;
+}
+
+.pharamp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(254, 254, 254);
+}
+
+.lainergie {
+    margin: 20px;
+    font-size: 400%;
+}
+
+.wattouat {
+    margin: 20px;
+    font-size: 1.3em;
+}
+
+.dracaufeu {
+    margin: 5px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #c9956b;
+}
+
+
+
+.dracaufeu a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.dracaufeu:hover{
+    background-color: #66482f;
+}
+
+@media screen and (max-width: 1024px) {
+    .pokemon {
+        flex-direction: column;
+    }
+    .amphinobi {
+        display: none;
+    }
+    .pharamp {
+        width: 100%;
+    }
+    .bulbizarre {
+        display: flex;
+    }
+    .lainergie {
+        margin: 10px;
+        font-size: 300%;
+    }
+    
+    .wattouat {
+        margin: 10px;
+        font-size: 1em;
+    }
+}
+
+/* icon */
+
+.anime {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+.dragonball {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 23.5%;
+}
+
+.mha {
+    color: rgb(254, 254, 254);
+    font-size: 250%;
+}
+
+.haikyuu {
+    color: rgb(254, 254, 254);
+    margin: 5px;
+}
+
+.onepunch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .dragonball {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .anime {
+        flex-direction: column;
+    }
+    .dragonball {
+        width: 90%;
+    }
+}

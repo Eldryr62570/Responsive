@@ -12,7 +12,7 @@
 </head>
 <body>
 <!-- slide show + bouton -->
-<div class="desactiveimg"><img src="assets/img/guitareslide0.jpg"></div>
+<div class="desactiveimg"><img src="assets/img/guitareslide0.jpg" class="sizeImg"></div>
 <section class="slide-section">
     
     <div class="slider">

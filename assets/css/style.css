@@ -32,6 +32,9 @@ h1 {
     left: 30%;
     top: 40%;
   }
+  .sizeImg {
+    width: 100%;
+  }
 }
 
 .titre-slide {

@@ -5,12 +5,25 @@
   color: #fff;
 }
 
+
+/* slide  */
+
+
+
+.desactiveimg {
+  display: none;
+}
+
 .titre-slide {
   position: absolute;
   font-size: 3em;
   top: 35%;
   left: 30%;
+  font-weight: 600;
+  text-shadow: 1px 2px 3px rgb(8, 8, 8);
+
 }
+
 
 .slider {
   height: 80vh;
@@ -49,4 +62,47 @@
   left: 1rem;
 }
 
-@media 
+/* responsive slide */
+
+ /* tablette */
+
+@media (max-width:850px) {
+  .slider {
+    display: none;
+
+  }
+  
+  .desactiveimg {
+    display: flex;
+    width: 100%;
+    max-height: 100%;
+    padding: 0px 0px;
+    margin: 0;
+    
+    object-fit: cover;
+    position: relative;
+
+  }
+
+  .titre-slide {
+    font-size: 1.5em;
+    left: 30%;
+    top: 40%;
+  }
+}
+
+/* mobile */
+
+@media (max-width:450px) {
+
+  .titre-slide {
+    font-size: 1.3em;
+    left: 100%;
+    top:30%;
+    text-align: center;
+  }
+
+
+
+}
+

@@ -29,5 +29,6 @@
 Includes scripts
  -->
  <script src="assets/js/paralax.js"></script>
+ <script src="assets/js/nightMode.js"></script>
 </body>
 </html>

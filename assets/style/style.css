@@ -22,11 +22,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 900px) {
+  .paralaxContainer {
+    display: none;
+  }
+}
 /*Texte avec bouton*/
 .texteContainer {
   width: 100%;
-  height: 100vh;
-  background-color: #c9956b;
+  height: auto;
+  padding: 10px 0 10px 0;
+  background-color: #dfa677;
   flex-direction: column;
   justify-content: center;
   display: flex;
@@ -35,17 +41,47 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .paragraphTexte p {
   width: 70%;
   height: fit-content;
   text-align: center;
-  font-size: 1.7em;
+  font-size: 1.3em;
 }
+@media screen and (max-width: 900px) {
+  .paragraphTexte p {
+    font-size: 1em;
+  }
+}
+
 .paragraphTitle {
   height: fit-content;
   width: 100%;
   font-size: 2em;
   justify-self: center;
   text-align: center;
+}
+@media screen and (max-width: 900px) {
+  .paragraphTitle {
+    font-size: 1.7em;
+  }
+}
+
+.texteButton {
+  margin: 5px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #7a5b42;
+  transition: all 0.2s linear;
+}
+.texteButton:hover {
+  background-color: #3a2b1f;
+}
+
+.texteButton a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
 }

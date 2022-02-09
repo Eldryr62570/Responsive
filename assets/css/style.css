@@ -1,7 +1,15 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  transition: 0.5s linear;
+}
+
 header {
+  transition: 0.5s linear;
   position: sticky;
   top: 0px;
-  background-color: rgba(219, 194, 173, 0.75);
+  background-color: rgba(223, 166, 119, 0.75);
   backdrop-filter: blur(4px);
   z-index: 10;
 }
@@ -68,7 +76,7 @@ nav {
     right: 0px;
     height: 92vh;
     top: 5.7vh;
-    background-color: rgba(219, 194, 173, 0.95);
+    background-color: rgba(223, 166, 119, 0.85);
     backdrop-filter: blur(100px);
     display: none;
     flex-direction: column;
@@ -84,11 +92,12 @@ nav {
     display: block;
   }
   .nav-active {
+    transition: 0.5s linear;
     transform: translateX(0%);
     display: flex;
     transition: transform 1s ease-in;
   }
-  .footer {
+  footer {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
   }
@@ -134,7 +143,8 @@ nav {
 
 section,
 footer {
-  background: rgb(219, 194, 173);
+  transition: 0.5s linear;
+  background: rgb(223, 166, 119);
   color: #fff;
 }
 footer {
@@ -158,11 +168,6 @@ footer {
   color: white;
 }
 
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Oswald", sans-serif;
-}
 /*Quentin*/
 /* slide  */
 h1 {
@@ -273,6 +278,7 @@ h1 {
 }
 /*Texte avec bouton*/
 .texteContainer {
+  transition: 0.5s linear;
   width: 100%;
   height: auto;
   padding: 10px 0 10px 0;
@@ -282,12 +288,14 @@ h1 {
   display: flex;
 }
 .paragraphTexte {
+  transition: 0.5s linear;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .paragraphTexte p {
+  transition: 0.5s linear;
   width: 70%;
   height: fit-content;
   text-align: center;
@@ -302,13 +310,13 @@ h1 {
 .paragraphTitle {
   height: fit-content;
   width: 100%;
-  font-size: 2em;
+  font-size: 4em;
   justify-self: center;
   text-align: center;
 }
 @media screen and (max-width: 1024px) {
   .paragraphTitle {
-    font-size: 1.7em;
+    font-size: 2em;
   }
 }
 
@@ -329,14 +337,7 @@ h1 {
   color: white;
   margin: 10px;
 }
-/*Mode Nuit*/
-/*Night1 :#232A34
-  Night2 :#
-*/
-.night1 {
-  color: white;
-  background-color: #232a34;
-}
+
 .toggleNight {
   z-index: 10;
   position: absolute;
@@ -404,12 +405,13 @@ h1 {
   width: 50%;
 }
 
-.salameche {
+.reptincel {
   display: flex;
   width: 100%;
 }
 
 .pharamp {
+  transition: 0.5s linear;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -468,6 +470,9 @@ h1 {
     margin: 10px;
     font-size: 1em;
   }
+  .lainergie {
+    font-size: 2em;
+  }
 }
 
 /* icon */
@@ -521,4 +526,39 @@ h1 {
   .dragonball {
     width: 90%;
   }
+}
+/*DARK MODE*/
+.dark1 {
+  background-color: hsla(215, 20%, 17%, 0.85);
+  color: #eee;
+}
+.dark1 header {
+  background-color: hsla(215, 20%, 17%, 0.75);
+  color: #eee;
+}
+
+.dark1 .texteContainer {
+  background-color: #232a34;
+  color: #eee;
+}
+.dark1 .pharamp {
+  background-color: #232a34;
+  color: #eee;
+}
+.dark1 .nav-active {
+  background-color: hsla(215, 20%, 17%, 0.85);
+  color: #eee;
+}
+.dark1 footer {
+  background-color: hsla(215, 20%, 17%, 0.85);
+  color: #eee;
+}
+.dark1 .fa-arrow-up {
+  color: #eee;
+}
+.dark1 .fa-arrow-up:hover {
+  color: #c9956b;
+}
+.fa-arrow-up:hover {
+  transition: 0.5s linear;
 }

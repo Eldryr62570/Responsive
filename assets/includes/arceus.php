@@ -1,10 +1,10 @@
 <div class="pokemon">
     <div class="bulbizarre">
-        <img src="assets/img/745646.jpg" class="carapuce">
+        <img src="assets/img/717218.jpg" class="carapuce">
     </div>
 
     <div class="amphinobi">
-        <img src="assets/img/salameche.jpg" class="salameche">
+        <img src="assets/img/reptincel.jpg" class="salameche">
     </div>
 
     <div class="pharamp">

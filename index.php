@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,23 +13,22 @@
     <title>Guitar'Hub</title>
 </head>
 <body>
-    <!--
+  
     <?php include("assets/includes/navbar.php") ?>  
     <?php include("assets/includes/slider.php") ?>
     
--->
+
     <?php include("assets/includes/texte.php") ?>   
     <?php include("assets/includes/paralax.php") ?> 
-<!--
+
     
     <?php include("assets/includes/arceus.php") ?>
     <?php include("assets/includes/icon.php") ?>
     <?php include("assets/includes/footer.php") ?>
--->
-<!--
-Includes scripts
- -->
+
+ <script src="assets/js/slide.js"></script>
  <script src="assets/js/paralax.js"></script>
  <script src="assets/js/nightMode.js"></script>
 </body>
 </html>
+

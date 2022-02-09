@@ -13,12 +13,12 @@
 <body>
 <!-- slide show + bouton -->
 <section class="slide-section">
-    <div class="desactiveimg"><img src="../img/guitareslide0.jpg"></div>
+    <div class="desactiveimg"><img src="assets/img/guitareslide0.jpg"></div>
     <div class="slider">
-        <img src="../img/guitareslide1.jpg" alt="img1" class="img__slider active" />
-        <img src="../img/guitareslide2.jpg" alt="img2" class="img__slider" />
-        <img src="../img/guitareslide3.jpg" alt="img3" class="img__slider" />
-        <img src="../img/guitareslide4.jpg" alt="img4" class="img__slider" />
+        <img src="assets/img/guitareslide1.jpg" alt="img1" class="img__slider active" />
+        <img src="assets/img/guitareslide2.jpg" alt="img2" class="img__slider" />
+        <img src="assets/img/guitareslide3.jpg" alt="img3" class="img__slider" />
+        <img src="assets/img/guitareslide4.jpg" alt="img4" class="img__slider" />
         <div class="suivant">
             <i class="fas fa-chevron-circle-right"></i>
         </div>

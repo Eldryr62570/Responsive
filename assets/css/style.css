@@ -179,7 +179,7 @@ h1 {
   position: absolute;
   font-size: 3em;
   top: 55%;
-  left: 30%;
+  left: 40%;
   font-weight: 600;
   text-shadow: 1px 2px 3px rgb(8, 8, 8);
 }
@@ -239,7 +239,7 @@ h1 {
 
   .titre-slide {
     font-size: 2em;
-    left: 25%;
+    left: 40%;
     top: 40%;
   }
   .sizeImg {
@@ -252,7 +252,7 @@ h1 {
 @media (max-width: 600px) {
   .titre-slide {
     font-size: 1.3em;
-    left: 20%;
+    left: 35%;
     top: 20%;
     text-align: center;
   }
@@ -293,6 +293,7 @@ h1 {
   flex-direction: column;
 }
 .paragraphTexte p {
+  color: white;
   transition: 0.5s linear;
   width: 70%;
   height: fit-content;
@@ -306,6 +307,7 @@ h1 {
 }
 
 .paragraphTitle {
+  color: white;
   height: fit-content;
   width: 100%;
   font-size: 4em;
@@ -348,7 +350,7 @@ h1 {
 .label {
   height: 26px;
   width: 50px;
-  background-color: rgb(182, 182, 182);
+  background-color: #232a34;
   padding: 5px 8px;
   border-radius: 50px;
   cursor: pointer;
@@ -357,7 +359,6 @@ h1 {
   align-items: center;
   position: relative;
   transform: scale(1.2);
-  box-shadow: 1px 2px 2px;
 }
 @media screen and (max-width: 1024px) {
   .label {
@@ -366,7 +367,7 @@ h1 {
 }
 
 .label .ball {
-  background: #eee;
+  background: #dfa677;
   border-radius: 50%;
   height: 26px;
   width: 26px;
@@ -559,4 +560,16 @@ h1 {
 }
 .fa-arrow-up:hover {
   transition: 0.5s linear;
+}
+.fa-sun {
+  color: rgb(223, 166, 119);
+}
+.dark1 label {
+  background-color: #dfa677;
+}
+.dark1 .ball {
+  background-color: #232a34;
+}
+.dark1 .fa-moon {
+  color: #232a34;
 }

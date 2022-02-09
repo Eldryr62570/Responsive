@@ -1,6 +1,6 @@
 
 
-<section class="texteContainer">
+<section id="presentation" class="texteContainer">
     <div class="paragraphTitle">
         Tout sur les guitares ! 
     </div>

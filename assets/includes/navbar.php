@@ -1,4 +1,4 @@
-<header>
+<header id="acceuil">
         
         <nav>
             <div class="logo">
@@ -9,10 +9,10 @@
                     <a href="#acceuil"> Acceuil</a>
                 </li>
                 <li>
-                    <a href="#prestation"> Présentation</a>
+                    <a href="#presentation"> Présentation</a>
                 </li>
                 <li>
-                    <a href="#actualité"> Histoire</a>
+                    <a href="#histoire"> Histoire</a>
                 </li>
                 <li>
                     <a href="#contact"> Contact</a>

@@ -1,4 +1,4 @@
-<div class="pokemon">
+<div id="histoire" class="pokemon">
     <div class="bulbizarre">
         <img src="assets/img/717218.jpg" class="carapuce">
     </div>

@@ -28,6 +28,6 @@
     </div>
     <div class="titre-slide"><h1>Les plus belles Guitares</h1></div>
 </section>
-    <script src="../../js/slide.js"></script>
+    <script src="../../assets/js/slide.js"></script>
 </body>
 </html>

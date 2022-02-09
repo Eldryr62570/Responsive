@@ -19,6 +19,7 @@
     <?php include("assets/includes/icon.php") ?>
     <?php include("assets/includes/footer.php") ?>
 
-    
+    <script src="../../assets/js/slide.js"></script>
+
 </body>
 </html>

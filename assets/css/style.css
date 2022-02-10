@@ -565,6 +565,18 @@ h1 {
 .fa-arrow-up:hover {
   transition: 0.5s linear;
 }
+.dark1 .texteButton {
+  background-color: rgb(46, 66, 94);
+}
+.dark1 .texteButton:hover {
+  background-color: rgb(34, 52, 77);
+}
+.dark1 .dracaufeu {
+  background-color: rgb(46, 66, 94);
+}
+.dark1 .dracaufeu:hover {
+  background-color: rgb(34, 52, 77);
+}
 .fa-sun {
   color: rgb(223, 166, 119);
 }

@@ -75,7 +75,7 @@ nav {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 8.08vh;
+    top: 73.4%;
     background-color: rgba(223, 166, 119, 0.85);
     backdrop-filter: blur(100px);
     display: none;
@@ -207,8 +207,8 @@ h1 {
 
 .suivant,
 .precedent {
-  color: #fff;
-  font-size: 6rem;
+  color: rgba(225, 255, 255, 0.75);
+  font-size: 3rem;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -258,7 +258,7 @@ h1 {
     text-align: center;
   }
   .nav-links {
-    top: 7.4vh;
+    top: 73.3%;
   }
 }
 /* jordan */

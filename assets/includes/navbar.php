@@ -6,7 +6,7 @@
             </div>
             <ul class="nav-links">
                 <li>
-                    <a href="#acceuil"> Acceuil</a>
+                    <a href="#acceuil"> Accueil</a>
                 </li>
                 <li>
                     <a href="#presentation"> Présentation</a>
